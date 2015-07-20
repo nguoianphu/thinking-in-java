@@ -64,10 +64,8 @@
 						</goals>
 						<configuration>
 							<mainClass>com.think.java.App</mainClass>
-							<arguments>
-								<argument>arg0</argument>
-								<argument>arg1</argument>
-							</arguments>
+							<!-- <arguments> <argument>arg0</argument> <argument>arg1</argument> 
+								</arguments> -->
 						</configuration>
 					</execution>
 				</executions>
