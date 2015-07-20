@@ -14,19 +14,23 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 		System.out.println("#############");
+
 		System.out.println("Ex1");
 		Ex1 ex1 = new Ex1();
 		System.out.println("public int int1: " + ex1.int1);
 		System.out.println("public char char1: " + ex1.char1);
 		System.out.println("#############");
+
 		System.out.println("Ex2");
 		HelloDate helloDate = new HelloDate();
 		helloDate.printDate();
 		System.out.println("#############");
+
 		System.out.println("Ex3");
 		ATypeNam a = new ATypeNam();
 		a.runATypeNam();
 		System.out.println("#############");
+
 		System.out.println("Ex4-5");
 		DataOnly data = new DataOnly();
 		data.myInt = 10;
@@ -36,13 +40,45 @@ public class App {
 		data.myBoolean = false;
 		System.out.println(data.myBoolean);
 		System.out.println("#############");
+
 		System.out.println("Ex6");
 		Storage s = new Storage();
 		int ex6 = s.storage("stograge");
 		System.out.println(ex6);
 		System.out.println("#############");
 
+		System.out.println("Ex7");
+		System.out.println("#############");
+
+		System.out.println("Ex8");
+		System.out.println("#############");
+
+		System.out.println("Ex9");
+		System.out.println("#############");
+
+		System.out.println("Ex10");
+		System.out.println("#############");
+
+		System.out.println("Ex11");
+		System.out.println("#############");
+
+		System.out.println("Ex12");
+		System.out.println("#############");
+
+		System.out.println("Ex13");
+		System.out.println("#############");
+
+		System.out.println("Ex14");
+		System.out.println("#############");
+
+		System.out.println("Ex15");
+		System.out.println("#############");
+
+		System.out.println("Ex16");
+		System.out.println("#############");
+
 	}
+
 }
 
 /*

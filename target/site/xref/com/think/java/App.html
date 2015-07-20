@@ -22,99 +22,135 @@
 <a class="jxr_linenumber" name="L14" href="#L14">14</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">void</strong> main(String[] args) {
 <a class="jxr_linenumber" name="L15" href="#L15">15</a>  		System.out.println(<span class="jxr_string">"Hello World!"</span>);
 <a class="jxr_linenumber" name="L16" href="#L16">16</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
-<a class="jxr_linenumber" name="L17" href="#L17">17</a>  		System.out.println(<span class="jxr_string">"Ex1"</span>);
-<a class="jxr_linenumber" name="L18" href="#L18">18</a>  		Ex1 ex1 = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex1/Ex1.html">Ex1</a>();
-<a class="jxr_linenumber" name="L19" href="#L19">19</a>  		System.out.println(<span class="jxr_string">"public int int1: "</span> + ex1.<strong class="jxr_keyword">int</strong>1);
-<a class="jxr_linenumber" name="L20" href="#L20">20</a>  		System.out.println(<span class="jxr_string">"public char char1: "</span> + ex1.<strong class="jxr_keyword">char</strong>1);
-<a class="jxr_linenumber" name="L21" href="#L21">21</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
-<a class="jxr_linenumber" name="L22" href="#L22">22</a>  		System.out.println(<span class="jxr_string">"Ex2"</span>);
-<a class="jxr_linenumber" name="L23" href="#L23">23</a>  		HelloDate helloDate = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex2/HelloDate.html">HelloDate</a>();
-<a class="jxr_linenumber" name="L24" href="#L24">24</a>  		helloDate.printDate();
-<a class="jxr_linenumber" name="L25" href="#L25">25</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
-<a class="jxr_linenumber" name="L26" href="#L26">26</a>  		System.out.println(<span class="jxr_string">"Ex3"</span>);
-<a class="jxr_linenumber" name="L27" href="#L27">27</a>  		ATypeNam a = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex3/ATypeNam.html">ATypeNam</a>();
-<a class="jxr_linenumber" name="L28" href="#L28">28</a>  		a.runATypeNam();
-<a class="jxr_linenumber" name="L29" href="#L29">29</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
-<a class="jxr_linenumber" name="L30" href="#L30">30</a>  		System.out.println(<span class="jxr_string">"Ex4-5"</span>);
-<a class="jxr_linenumber" name="L31" href="#L31">31</a>  		DataOnly data = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex4/DataOnly.html">DataOnly</a>();
-<a class="jxr_linenumber" name="L32" href="#L32">32</a>  		data.myInt = 10;
-<a class="jxr_linenumber" name="L33" href="#L33">33</a>  		System.out.println(data.myInt);
-<a class="jxr_linenumber" name="L34" href="#L34">34</a>  		data.myDouble = 3.3;
-<a class="jxr_linenumber" name="L35" href="#L35">35</a>  		System.out.println(data.myDouble);
-<a class="jxr_linenumber" name="L36" href="#L36">36</a>  		data.myBoolean = false;
-<a class="jxr_linenumber" name="L37" href="#L37">37</a>  		System.out.println(data.myBoolean);
-<a class="jxr_linenumber" name="L38" href="#L38">38</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
-<a class="jxr_linenumber" name="L39" href="#L39">39</a>  		System.out.println(<span class="jxr_string">"Ex6"</span>);
-<a class="jxr_linenumber" name="L40" href="#L40">40</a>  		Storage s = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex6/Storage.html">Storage</a>();
-<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		<strong class="jxr_keyword">int</strong> ex6 = s.storage(<span class="jxr_string">"stograge"</span>);
-<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		System.out.println(ex6);
-<a class="jxr_linenumber" name="L43" href="#L43">43</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
-<a class="jxr_linenumber" name="L44" href="#L44">44</a>  
-<a class="jxr_linenumber" name="L45" href="#L45">45</a>  	}
-<a class="jxr_linenumber" name="L46" href="#L46">46</a>  }
-<a class="jxr_linenumber" name="L47" href="#L47">47</a>  
-<a class="jxr_linenumber" name="L48" href="#L48">48</a>  <em class="jxr_comment">/*</em>
-<a class="jxr_linenumber" name="L49" href="#L49">49</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L50" href="#L50">50</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L51" href="#L51">51</a>  <em class="jxr_comment"> * Exercise 1: (2) Create a class containing an int and a char that are not</em>
-<a class="jxr_linenumber" name="L52" href="#L52">52</a>  <em class="jxr_comment"> * initialized, and print their values to verify that Java performs default</em>
-<a class="jxr_linenumber" name="L53" href="#L53">53</a>  <em class="jxr_comment"> * initialization.</em>
-<a class="jxr_linenumber" name="L54" href="#L54">54</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L55" href="#L55">55</a>  <em class="jxr_comment"> * Exercise 2: (1) Following the HelloDate.java example in this chapter, create</em>
-<a class="jxr_linenumber" name="L56" href="#L56">56</a>  <em class="jxr_comment"> * a “hello, world” program that simply displays that statement. You need only a</em>
-<a class="jxr_linenumber" name="L57" href="#L57">57</a>  <em class="jxr_comment"> * single method in your class (the “main” one that gets executed when the</em>
-<a class="jxr_linenumber" name="L58" href="#L58">58</a>  <em class="jxr_comment"> * program starts). Remember to make it static and to include the argument list,</em>
-<a class="jxr_linenumber" name="L59" href="#L59">59</a>  <em class="jxr_comment"> * even though you don’t use the argument list. Compile the program with javac</em>
-<a class="jxr_linenumber" name="L60" href="#L60">60</a>  <em class="jxr_comment"> * and run it using java. If you are using a different development environment</em>
-<a class="jxr_linenumber" name="L61" href="#L61">61</a>  <em class="jxr_comment"> * than the JDK, learn how to compile and run programs in that environment.</em>
-<a class="jxr_linenumber" name="L62" href="#L62">62</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L63" href="#L63">63</a>  <em class="jxr_comment"> * Exercise 3: (1) Find the code fragments involving ATypeName and turn them</em>
-<a class="jxr_linenumber" name="L64" href="#L64">64</a>  <em class="jxr_comment"> * into a program that compiles and runs.</em>
-<a class="jxr_linenumber" name="L65" href="#L65">65</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L66" href="#L66">66</a>  <em class="jxr_comment"> * Exercise 4: (1) Turn the DataOnly code fragments into a program that compiles</em>
-<a class="jxr_linenumber" name="L67" href="#L67">67</a>  <em class="jxr_comment"> * and runs.</em>
-<a class="jxr_linenumber" name="L68" href="#L68">68</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L69" href="#L69">69</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L70" href="#L70">70</a>  <em class="jxr_comment"> * Exercise 5: (1) Modify the previous exercise so that the values of the data</em>
-<a class="jxr_linenumber" name="L71" href="#L71">71</a>  <em class="jxr_comment"> * in DataOnly are assigned to and printed in main( ).</em>
-<a class="jxr_linenumber" name="L72" href="#L72">72</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L73" href="#L73">73</a>  <em class="jxr_comment"> * Exercise 6: (2) Write a program that includes and calls the storage( ) method</em>
-<a class="jxr_linenumber" name="L74" href="#L74">74</a>  <em class="jxr_comment"> * defined as a code fragment in this chapter.</em>
-<a class="jxr_linenumber" name="L75" href="#L75">75</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L76" href="#L76">76</a>  <em class="jxr_comment"> * Exercise 7: (1) Turn the Incrementable code fragments into a working program.</em>
-<a class="jxr_linenumber" name="L77" href="#L77">77</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L78" href="#L78">78</a>  <em class="jxr_comment"> * Exercise 8: (3) Write a program that demonstrates that, no matter how many</em>
-<a class="jxr_linenumber" name="L79" href="#L79">79</a>  <em class="jxr_comment"> * objects you create of a particular class, there is only one instance of a</em>
-<a class="jxr_linenumber" name="L80" href="#L80">80</a>  <em class="jxr_comment"> * particular static field in that class.</em>
-<a class="jxr_linenumber" name="L81" href="#L81">81</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L82" href="#L82">82</a>  <em class="jxr_comment"> * Exercise 9: (2) Write a program that demonstrates that autoboxing works for</em>
-<a class="jxr_linenumber" name="L83" href="#L83">83</a>  <em class="jxr_comment"> * all the primitive types and their wrappers.</em>
-<a class="jxr_linenumber" name="L84" href="#L84">84</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L85" href="#L85">85</a>  <em class="jxr_comment"> * Exercise 10: (2) Write a program that prints three arguments taken from the</em>
-<a class="jxr_linenumber" name="L86" href="#L86">86</a>  <em class="jxr_comment"> * command line. To do this, you’ll need to index into the command-line array of</em>
-<a class="jxr_linenumber" name="L87" href="#L87">87</a>  <em class="jxr_comment"> * Strings. Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a</em>
-<a class="jxr_linenumber" name="L88" href="#L88">88</a>  <em class="jxr_comment"> * program that compiles and runs.</em>
-<a class="jxr_linenumber" name="L89" href="#L89">89</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L90" href="#L90">90</a>  <em class="jxr_comment"> * Exercise 12: (2) Find the code for the second version of HelloDate.java,</em>
-<a class="jxr_linenumber" name="L91" href="#L91">91</a>  <em class="jxr_comment"> * which is the simple comment documentation example. Execute Javadoc on the</em>
-<a class="jxr_linenumber" name="L92" href="#L92">92</a>  <em class="jxr_comment"> * file and view the results with your Web browser.</em>
-<a class="jxr_linenumber" name="L93" href="#L93">93</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L94" href="#L94">94</a>  <em class="jxr_comment"> * Exercise 13: (1) Run Documentation1.java, Documentation2.java, and</em>
-<a class="jxr_linenumber" name="L95" href="#L95">95</a>  <em class="jxr_comment"> * Documentation3.java through Javadoc. Verify the resulting documentation with</em>
-<a class="jxr_linenumber" name="L96" href="#L96">96</a>  <em class="jxr_comment"> * your Web browser.</em>
-<a class="jxr_linenumber" name="L97" href="#L97">97</a>  <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L98" href="#L98">98</a>  <em class="jxr_comment"> * Exercise 14: (1) Add an HTML list of items to the documentation in the</em>
-<a class="jxr_linenumber" name="L99" href="#L99">99</a>  <em class="jxr_comment"> * previous exercise.</em>
-<a class="jxr_linenumber" name="L100" href="#L100">100</a> <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L101" href="#L101">101</a> <em class="jxr_comment"> * Exercise 15: (1) Take the program in Exercise 2 and add comment documentation</em>
-<a class="jxr_linenumber" name="L102" href="#L102">102</a> <em class="jxr_comment"> * to it. Extract this comment documentation into an HTML file using Javadoc and</em>
-<a class="jxr_linenumber" name="L103" href="#L103">103</a> <em class="jxr_comment"> * view it with your Web browser.</em>
+<a class="jxr_linenumber" name="L17" href="#L17">17</a>  
+<a class="jxr_linenumber" name="L18" href="#L18">18</a>  		System.out.println(<span class="jxr_string">"Ex1"</span>);
+<a class="jxr_linenumber" name="L19" href="#L19">19</a>  		Ex1 ex1 = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex1/Ex1.html">Ex1</a>();
+<a class="jxr_linenumber" name="L20" href="#L20">20</a>  		System.out.println(<span class="jxr_string">"public int int1: "</span> + ex1.<strong class="jxr_keyword">int</strong>1);
+<a class="jxr_linenumber" name="L21" href="#L21">21</a>  		System.out.println(<span class="jxr_string">"public char char1: "</span> + ex1.<strong class="jxr_keyword">char</strong>1);
+<a class="jxr_linenumber" name="L22" href="#L22">22</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L23" href="#L23">23</a>  
+<a class="jxr_linenumber" name="L24" href="#L24">24</a>  		System.out.println(<span class="jxr_string">"Ex2"</span>);
+<a class="jxr_linenumber" name="L25" href="#L25">25</a>  		HelloDate helloDate = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex2/HelloDate.html">HelloDate</a>();
+<a class="jxr_linenumber" name="L26" href="#L26">26</a>  		helloDate.printDate();
+<a class="jxr_linenumber" name="L27" href="#L27">27</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L28" href="#L28">28</a>  
+<a class="jxr_linenumber" name="L29" href="#L29">29</a>  		System.out.println(<span class="jxr_string">"Ex3"</span>);
+<a class="jxr_linenumber" name="L30" href="#L30">30</a>  		ATypeNam a = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex3/ATypeNam.html">ATypeNam</a>();
+<a class="jxr_linenumber" name="L31" href="#L31">31</a>  		a.runATypeNam();
+<a class="jxr_linenumber" name="L32" href="#L32">32</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L33" href="#L33">33</a>  
+<a class="jxr_linenumber" name="L34" href="#L34">34</a>  		System.out.println(<span class="jxr_string">"Ex4-5"</span>);
+<a class="jxr_linenumber" name="L35" href="#L35">35</a>  		DataOnly data = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex4/DataOnly.html">DataOnly</a>();
+<a class="jxr_linenumber" name="L36" href="#L36">36</a>  		data.myInt = 10;
+<a class="jxr_linenumber" name="L37" href="#L37">37</a>  		System.out.println(data.myInt);
+<a class="jxr_linenumber" name="L38" href="#L38">38</a>  		data.myDouble = 3.3;
+<a class="jxr_linenumber" name="L39" href="#L39">39</a>  		System.out.println(data.myDouble);
+<a class="jxr_linenumber" name="L40" href="#L40">40</a>  		data.myBoolean = false;
+<a class="jxr_linenumber" name="L41" href="#L41">41</a>  		System.out.println(data.myBoolean);
+<a class="jxr_linenumber" name="L42" href="#L42">42</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L43" href="#L43">43</a>  
+<a class="jxr_linenumber" name="L44" href="#L44">44</a>  		System.out.println(<span class="jxr_string">"Ex6"</span>);
+<a class="jxr_linenumber" name="L45" href="#L45">45</a>  		Storage s = <strong class="jxr_keyword">new</strong> <a href="../../../com/think/java/ex6/Storage.html">Storage</a>();
+<a class="jxr_linenumber" name="L46" href="#L46">46</a>  		<strong class="jxr_keyword">int</strong> ex6 = s.storage(<span class="jxr_string">"stograge"</span>);
+<a class="jxr_linenumber" name="L47" href="#L47">47</a>  		System.out.println(ex6);
+<a class="jxr_linenumber" name="L48" href="#L48">48</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L49" href="#L49">49</a>  
+<a class="jxr_linenumber" name="L50" href="#L50">50</a>  		System.out.println(<span class="jxr_string">"Ex7"</span>);
+<a class="jxr_linenumber" name="L51" href="#L51">51</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L52" href="#L52">52</a>  
+<a class="jxr_linenumber" name="L53" href="#L53">53</a>  		System.out.println(<span class="jxr_string">"Ex8"</span>);
+<a class="jxr_linenumber" name="L54" href="#L54">54</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L55" href="#L55">55</a>  
+<a class="jxr_linenumber" name="L56" href="#L56">56</a>  		System.out.println(<span class="jxr_string">"Ex9"</span>);
+<a class="jxr_linenumber" name="L57" href="#L57">57</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L58" href="#L58">58</a>  
+<a class="jxr_linenumber" name="L59" href="#L59">59</a>  		System.out.println(<span class="jxr_string">"Ex10"</span>);
+<a class="jxr_linenumber" name="L60" href="#L60">60</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L61" href="#L61">61</a>  
+<a class="jxr_linenumber" name="L62" href="#L62">62</a>  		System.out.println(<span class="jxr_string">"Ex11"</span>);
+<a class="jxr_linenumber" name="L63" href="#L63">63</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L64" href="#L64">64</a>  
+<a class="jxr_linenumber" name="L65" href="#L65">65</a>  		System.out.println(<span class="jxr_string">"Ex12"</span>);
+<a class="jxr_linenumber" name="L66" href="#L66">66</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L67" href="#L67">67</a>  
+<a class="jxr_linenumber" name="L68" href="#L68">68</a>  		System.out.println(<span class="jxr_string">"Ex13"</span>);
+<a class="jxr_linenumber" name="L69" href="#L69">69</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L70" href="#L70">70</a>  
+<a class="jxr_linenumber" name="L71" href="#L71">71</a>  		System.out.println(<span class="jxr_string">"Ex14"</span>);
+<a class="jxr_linenumber" name="L72" href="#L72">72</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L73" href="#L73">73</a>  
+<a class="jxr_linenumber" name="L74" href="#L74">74</a>  		System.out.println(<span class="jxr_string">"Ex15"</span>);
+<a class="jxr_linenumber" name="L75" href="#L75">75</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L76" href="#L76">76</a>  
+<a class="jxr_linenumber" name="L77" href="#L77">77</a>  		System.out.println(<span class="jxr_string">"Ex16"</span>);
+<a class="jxr_linenumber" name="L78" href="#L78">78</a>  		System.out.println(<span class="jxr_string">"#############"</span>);
+<a class="jxr_linenumber" name="L79" href="#L79">79</a>  
+<a class="jxr_linenumber" name="L80" href="#L80">80</a>  	}
+<a class="jxr_linenumber" name="L81" href="#L81">81</a>  
+<a class="jxr_linenumber" name="L82" href="#L82">82</a>  }
+<a class="jxr_linenumber" name="L83" href="#L83">83</a>  
+<a class="jxr_linenumber" name="L84" href="#L84">84</a>  <em class="jxr_comment">/*</em>
+<a class="jxr_linenumber" name="L85" href="#L85">85</a>  <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L86" href="#L86">86</a>  <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L87" href="#L87">87</a>  <em class="jxr_comment"> * Exercise 1: (2) Create a class containing an int and a char that are not</em>
+<a class="jxr_linenumber" name="L88" href="#L88">88</a>  <em class="jxr_comment"> * initialized, and print their values to verify that Java performs default</em>
+<a class="jxr_linenumber" name="L89" href="#L89">89</a>  <em class="jxr_comment"> * initialization.</em>
+<a class="jxr_linenumber" name="L90" href="#L90">90</a>  <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L91" href="#L91">91</a>  <em class="jxr_comment"> * Exercise 2: (1) Following the HelloDate.java example in this chapter, create</em>
+<a class="jxr_linenumber" name="L92" href="#L92">92</a>  <em class="jxr_comment"> * a “hello, world” program that simply displays that statement. You need only a</em>
+<a class="jxr_linenumber" name="L93" href="#L93">93</a>  <em class="jxr_comment"> * single method in your class (the “main” one that gets executed when the</em>
+<a class="jxr_linenumber" name="L94" href="#L94">94</a>  <em class="jxr_comment"> * program starts). Remember to make it static and to include the argument list,</em>
+<a class="jxr_linenumber" name="L95" href="#L95">95</a>  <em class="jxr_comment"> * even though you don’t use the argument list. Compile the program with javac</em>
+<a class="jxr_linenumber" name="L96" href="#L96">96</a>  <em class="jxr_comment"> * and run it using java. If you are using a different development environment</em>
+<a class="jxr_linenumber" name="L97" href="#L97">97</a>  <em class="jxr_comment"> * than the JDK, learn how to compile and run programs in that environment.</em>
+<a class="jxr_linenumber" name="L98" href="#L98">98</a>  <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L99" href="#L99">99</a>  <em class="jxr_comment"> * Exercise 3: (1) Find the code fragments involving ATypeName and turn them</em>
+<a class="jxr_linenumber" name="L100" href="#L100">100</a> <em class="jxr_comment"> * into a program that compiles and runs.</em>
+<a class="jxr_linenumber" name="L101" href="#L101">101</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L102" href="#L102">102</a> <em class="jxr_comment"> * Exercise 4: (1) Turn the DataOnly code fragments into a program that compiles</em>
+<a class="jxr_linenumber" name="L103" href="#L103">103</a> <em class="jxr_comment"> * and runs.</em>
 <a class="jxr_linenumber" name="L104" href="#L104">104</a> <em class="jxr_comment"> * </em>
-<a class="jxr_linenumber" name="L105" href="#L105">105</a> <em class="jxr_comment"> * Exercise 16: (1) In the Initialization &amp; Cleanup chapter, locate the</em>
-<a class="jxr_linenumber" name="L106" href="#L106">106</a> <em class="jxr_comment"> * Overloading.java example and add Javadoc documentation. Extract this comment</em>
-<a class="jxr_linenumber" name="L107" href="#L107">107</a> <em class="jxr_comment"> * documentation into an HTML file using Javadoc and view it with your Web</em>
-<a class="jxr_linenumber" name="L108" href="#L108">108</a> <em class="jxr_comment"> * browser.</em>
-<a class="jxr_linenumber" name="L109" href="#L109">109</a> <em class="jxr_comment"> */</em>
+<a class="jxr_linenumber" name="L105" href="#L105">105</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L106" href="#L106">106</a> <em class="jxr_comment"> * Exercise 5: (1) Modify the previous exercise so that the values of the data</em>
+<a class="jxr_linenumber" name="L107" href="#L107">107</a> <em class="jxr_comment"> * in DataOnly are assigned to and printed in main( ).</em>
+<a class="jxr_linenumber" name="L108" href="#L108">108</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L109" href="#L109">109</a> <em class="jxr_comment"> * Exercise 6: (2) Write a program that includes and calls the storage( ) method</em>
+<a class="jxr_linenumber" name="L110" href="#L110">110</a> <em class="jxr_comment"> * defined as a code fragment in this chapter.</em>
+<a class="jxr_linenumber" name="L111" href="#L111">111</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L112" href="#L112">112</a> <em class="jxr_comment"> * Exercise 7: (1) Turn the Incrementable code fragments into a working program.</em>
+<a class="jxr_linenumber" name="L113" href="#L113">113</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L114" href="#L114">114</a> <em class="jxr_comment"> * Exercise 8: (3) Write a program that demonstrates that, no matter how many</em>
+<a class="jxr_linenumber" name="L115" href="#L115">115</a> <em class="jxr_comment"> * objects you create of a particular class, there is only one instance of a</em>
+<a class="jxr_linenumber" name="L116" href="#L116">116</a> <em class="jxr_comment"> * particular static field in that class.</em>
+<a class="jxr_linenumber" name="L117" href="#L117">117</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L118" href="#L118">118</a> <em class="jxr_comment"> * Exercise 9: (2) Write a program that demonstrates that autoboxing works for</em>
+<a class="jxr_linenumber" name="L119" href="#L119">119</a> <em class="jxr_comment"> * all the primitive types and their wrappers.</em>
+<a class="jxr_linenumber" name="L120" href="#L120">120</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L121" href="#L121">121</a> <em class="jxr_comment"> * Exercise 10: (2) Write a program that prints three arguments taken from the</em>
+<a class="jxr_linenumber" name="L122" href="#L122">122</a> <em class="jxr_comment"> * command line. To do this, you’ll need to index into the command-line array of</em>
+<a class="jxr_linenumber" name="L123" href="#L123">123</a> <em class="jxr_comment"> * Strings. Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a</em>
+<a class="jxr_linenumber" name="L124" href="#L124">124</a> <em class="jxr_comment"> * program that compiles and runs.</em>
+<a class="jxr_linenumber" name="L125" href="#L125">125</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L126" href="#L126">126</a> <em class="jxr_comment"> * Exercise 12: (2) Find the code for the second version of HelloDate.java,</em>
+<a class="jxr_linenumber" name="L127" href="#L127">127</a> <em class="jxr_comment"> * which is the simple comment documentation example. Execute Javadoc on the</em>
+<a class="jxr_linenumber" name="L128" href="#L128">128</a> <em class="jxr_comment"> * file and view the results with your Web browser.</em>
+<a class="jxr_linenumber" name="L129" href="#L129">129</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L130" href="#L130">130</a> <em class="jxr_comment"> * Exercise 13: (1) Run Documentation1.java, Documentation2.java, and</em>
+<a class="jxr_linenumber" name="L131" href="#L131">131</a> <em class="jxr_comment"> * Documentation3.java through Javadoc. Verify the resulting documentation with</em>
+<a class="jxr_linenumber" name="L132" href="#L132">132</a> <em class="jxr_comment"> * your Web browser.</em>
+<a class="jxr_linenumber" name="L133" href="#L133">133</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L134" href="#L134">134</a> <em class="jxr_comment"> * Exercise 14: (1) Add an HTML list of items to the documentation in the</em>
+<a class="jxr_linenumber" name="L135" href="#L135">135</a> <em class="jxr_comment"> * previous exercise.</em>
+<a class="jxr_linenumber" name="L136" href="#L136">136</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L137" href="#L137">137</a> <em class="jxr_comment"> * Exercise 15: (1) Take the program in Exercise 2 and add comment documentation</em>
+<a class="jxr_linenumber" name="L138" href="#L138">138</a> <em class="jxr_comment"> * to it. Extract this comment documentation into an HTML file using Javadoc and</em>
+<a class="jxr_linenumber" name="L139" href="#L139">139</a> <em class="jxr_comment"> * view it with your Web browser.</em>
+<a class="jxr_linenumber" name="L140" href="#L140">140</a> <em class="jxr_comment"> * </em>
+<a class="jxr_linenumber" name="L141" href="#L141">141</a> <em class="jxr_comment"> * Exercise 16: (1) In the Initialization &amp; Cleanup chapter, locate the</em>
+<a class="jxr_linenumber" name="L142" href="#L142">142</a> <em class="jxr_comment"> * Overloading.java example and add Javadoc documentation. Extract this comment</em>
+<a class="jxr_linenumber" name="L143" href="#L143">143</a> <em class="jxr_comment"> * documentation into an HTML file using Javadoc and view it with your Web</em>
+<a class="jxr_linenumber" name="L144" href="#L144">144</a> <em class="jxr_comment"> * browser.</em>
+<a class="jxr_linenumber" name="L145" href="#L145">145</a> <em class="jxr_comment"> */</em>
 </pre>
 <hr/>
 <div id="footer">Copyright &#169; 2015. All rights reserved.</div>
