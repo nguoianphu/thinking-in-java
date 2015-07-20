@@ -92,7 +92,7 @@ public class App {
  * a hello, world program that simply displays that statement. You need only a
  * single method in your class (the main one that gets executed when the
  * program starts). Remember to make it static and to include the argument list,
- * even though you don’t use the argument list. Compile the program with javac
+ * even though you don t use the argument list. Compile the program with javac
  * and run it using java. If you are using a different development environment
  * than the JDK, learn how to compile and run programs in that environment.
  * 
@@ -119,7 +119,7 @@ public class App {
  * all the primitive types and their wrappers.
  * 
  * Exercise 10: (2) Write a program that prints three arguments taken from the
- * command line. To do this, you’ll need to index into the command-line array of
+ * command line. To do this, you ll need to index into the command-line array of
  * Strings. Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a
  * program that compiles and runs.
  * 
