@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <links>
+    <link>http://commons.apache.org/lang/api</link>
+    <link>http://java.sun.com/j2se/1.7.0/docs/api</link>
+    <link>../apidocs</link>
+  </links>
+  <javadocResourcesDirectory>src/test/javadoc</javadocResourcesDirectory>
+</javadocOptions>
