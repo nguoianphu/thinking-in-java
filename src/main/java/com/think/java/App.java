@@ -89,7 +89,7 @@ public class App {
  * initialization.
  * 
  * Exercise 2: (1) Following the HelloDate.java example in this chapter, create
- * a “hello, world” program that simply displays that statement. You need only a
+ * a hello, world program that simply displays that statement. You need only a
  * single method in your class (the “main” one that gets executed when the
  * program starts). Remember to make it static and to include the argument list,
  * even though you don’t use the argument list. Compile the program with javac
