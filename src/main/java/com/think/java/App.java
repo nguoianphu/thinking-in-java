@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.think.java;
 
 import com.think.java.ex1.Ex1;
 import com.think.java.ex2.HelloDate;
