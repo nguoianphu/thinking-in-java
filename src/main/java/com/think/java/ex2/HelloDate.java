@@ -26,6 +26,5 @@ public class HelloDate {
 		System.out.println(new Date());
 		return myDate;
 	}
-}/*
- * Output: (55% match) Hello, it’s: Wed Oct 05 14:39:36 MDT 2005
+}/*Output: (55% match) Hello, its: Wed Oct 05 14:39:36 MDT 2005
  */// :~
