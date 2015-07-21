@@ -11,10 +11,23 @@ import com.think.java.ex7.StaticTest;
 import com.think.java.ex9.Wrapper;
 
 /**
- * Hello world!
- *
+ * The first Thinking in Java example program. Displays a string and today's
+ * date.
+ * 
+ * @author Bruce Eckel
+ * @author www.MindView.net
+ * @version 4.0
  */
 public class App {
+
+	/**
+	 * Entry point to class & application.
+	 * 
+	 * @param args
+	 *            array of string arguments
+	 * @throws exceptions
+	 *             No exceptions thrown
+	 */
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
 		System.out.println("#############");
@@ -98,15 +111,19 @@ public class App {
 		System.out.println("#############");
 
 		System.out.println("Ex12");
+		System.out.println("target/site/apidocs/index.html");
 		System.out.println("#############");
 
 		System.out.println("Ex13");
+		System.out.println("target/site/apidocs/index.html");
 		System.out.println("#############");
 
 		System.out.println("Ex14");
+		System.out.println("target/site/apidocs/index.html");
 		System.out.println("#############");
 
 		System.out.println("Ex15");
+		System.out.println("target/site/apidocs/index.html");
 		System.out.println("#############");
 
 		System.out.println("Ex16");
