@@ -1,10 +1,14 @@
 package com.think.java;
 
 import com.think.java.ex1.Ex1;
+import com.think.java.ex11.AllTheColorsOfTheRainbow;
 import com.think.java.ex2.HelloDate;
 import com.think.java.ex3.ATypeNam;
 import com.think.java.ex4.DataOnly;
 import com.think.java.ex6.Storage;
+import com.think.java.ex7.Incrementable;
+import com.think.java.ex7.StaticTest;
+import com.think.java.ex9.Wrapper;
 
 /**
  * Hello world!
@@ -48,18 +52,49 @@ public class App {
 		System.out.println("#############");
 
 		System.out.println("Ex7");
+		Incrementable.increment();
+		Incrementable.increment();
+		Incrementable sf = new Incrementable();
+		Incrementable.increment();
+		sf.increamentNoStatic();
+		sf.increamentNoStatic();
+		sf.increment();
 		System.out.println("#############");
 
 		System.out.println("Ex8");
+		StaticTest st = new StaticTest();
+		System.out.println("static i = 47 | " + StaticTest.i);
+		System.out.println("static i = 47 | " + st.i);
+		System.out.println("j = 10 | " + st.j);
+		StaticTest st1 = new StaticTest();
+		System.out.println("static i = 47++ | " + StaticTest.i++);
+		System.out.println("static i = 47 | " + st1.i);
+		System.out.println("j = 10 | " + st1.j);
+		StaticTest st2 = new StaticTest();
+		System.out.println("static i = 47 | " + StaticTest.i);
+		System.out.println("j = 10 | " + st2.j);
+		StaticTest st3 = new StaticTest();
+		System.out.println("static i = 47 | " + StaticTest.i);
+		System.out.println("j = 10 | " + st3.j);
+		System.out.println("j = 10 | " + st3.j);
 		System.out.println("#############");
 
 		System.out.println("Ex9");
+		Wrapper wp = new Wrapper();
+		wp.charWrapper();
+		wp.doubleWrapper();
 		System.out.println("#############");
 
 		System.out.println("Ex10");
+		System.out
+				.println("Type arguments | java -jar thinking-java-1.0-SNAPSHOT.jar hello my love");
+		for (int i = 0; i < args.length; i++)
+			System.out.println(args[i]);
 		System.out.println("#############");
 
 		System.out.println("Ex11");
+		AllTheColorsOfTheRainbow color = new AllTheColorsOfTheRainbow();
+		color.changeTheHueOfTheColor(123);
 		System.out.println("#############");
 
 		System.out.println("Ex12");
@@ -90,11 +125,11 @@ public class App {
  * 
  * Exercise 2: (1) Following the HelloDate.java example in this chapter, create
  * a hello, world program that simply displays that statement. You need only a
- * single method in your class (the main one that gets executed when the
- * program starts). Remember to make it static and to include the argument list,
- * even though you don t use the argument list. Compile the program with javac
- * and run it using java. If you are using a different development environment
- * than the JDK, learn how to compile and run programs in that environment.
+ * single method in your class (the main one that gets executed when the program
+ * starts). Remember to make it static and to include the argument list, even
+ * though you don t use the argument list. Compile the program with javac and
+ * run it using java. If you are using a different development environment than
+ * the JDK, learn how to compile and run programs in that environment.
  * 
  * Exercise 3: (1) Find the code fragments involving ATypeName and turn them
  * into a program that compiles and runs.
@@ -120,8 +155,10 @@ public class App {
  * 
  * Exercise 10: (2) Write a program that prints three arguments taken from the
  * command line. To do this, you ll need to index into the command-line array of
- * Strings. Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a
- * program that compiles and runs.
+ * Strings.
+ * 
+ * Exercise 11: (1) Turn the AllTheColorsOfTheRainbow example into a program
+ * that compiles and runs.
  * 
  * Exercise 12: (2) Find the code for the second version of HelloDate.java,
  * which is the simple comment documentation example. Execute Javadoc on the
