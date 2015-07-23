@@ -36,6 +36,7 @@ public class App {
 		Ex1 ex1 = new Ex1();
 		System.out.println("public int int1: " + ex1.int1);
 		System.out.println("public char char1: " + ex1.char1);
+//		(ex1.char1 == null)
 		System.out.println("#############");
 
 		System.out.println("Ex2");
