@@ -1,0 +1,8 @@
+## Customize test commands
+test:
+ override:
+    - mvn clean test install
+ post:
+    #- mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type f -regex ".*/target/.*" -exec cp {} $CIRCLE_ARTIFACTS/ \;
+    #- find . -type f -regex ".*/target/surefire-reports/.*" -exec cp {} $CIRCLE_TEST_REPORTS/ \;
