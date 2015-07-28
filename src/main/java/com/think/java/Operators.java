@@ -1,6 +1,7 @@
 package com.think.java;
 
 import com.think.java.operators.Assignment;
+import com.think.java.operators.Dogs;
 import com.think.java.operators.FloatClass;
 import com.think.java.operators.Print;
 import com.think.java.operators.Velocity;
@@ -38,6 +39,17 @@ public class Operators {
 		vl.distance = 100;
 		vl.time = 20;
 		vl.velocity();
+		System.out.println("#############################");
+
+		System.out.println("Ex4");
+		Dogs spot = new Dogs();
+		spot.name = "Spot";
+		spot.says = "Rurf!";
+		System.out.println(spot.name + " " + spot.says);
+		Dogs scruffy = new Dogs();
+		scruffy.name = "Scruffy";
+		scruffy.says = "Wurf!";
+		System.out.println(scruffy.name + " " + scruffy.says);
 		System.out.println("#############################");
 
 	}
