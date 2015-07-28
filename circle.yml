@@ -1,7 +1,7 @@
 ## Customize test commands
 test:
  override:
-    - mvn clean test install
+    - mvn clean test site install
  post:
     - cp -fr target/* $CIRCLE_ARTIFACTS/
     - find . -type f -regex ".*/target/surefire-reports/.*" -exec cp {} $CIRCLE_TEST_REPORTS/ \;
