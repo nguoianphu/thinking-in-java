@@ -29,7 +29,8 @@
 					<archive>
 						<manifest>
 							<!-- Jar file entry point -->
-							<mainClass>com.think.java.App</mainClass>
+							<!-- <mainClass>com.think.java.App</mainClass> -->
+							<mainClass>com.think.java.Operators</mainClass>
 						</manifest>
 					</archive>
 				</configuration>
@@ -45,7 +46,8 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>com.think.java.App</mainClass>
+							<!-- <mainClass>com.think.java.App</mainClass> -->
+							<mainClass>com.think.java.Operators</mainClass>
 							<!-- <arguments> <argument>arg0</argument> <argument>arg1</argument> 
 								</arguments> -->
 						</configuration>
@@ -75,22 +77,11 @@
 		</plugins>
 	</reporting>
 
-<!-- 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<sonar.language>java</sonar.language>
-
-		Example for MySQL
-		<sonar.jdbc.url>
-			jdbc:mysql://192.168.88.228:3306/sonar?useUnicode=true&amp;characterEncoding=utf8
-		</sonar.jdbc.url>
-		<sonar.jdbc.username>sonar</sonar.jdbc.username>
-		<sonar.jdbc.password>sonar</sonar.jdbc.password>
-
-		Optional URL to server. Default value is http://localhost:9000
-		<sonar.host.url>
-			http://192.168.88.228:9000/
-		</sonar.host.url>
-
-	</properties> -->
+	<!-- <properties> <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+		<sonar.language>java</sonar.language> Example for MySQL <sonar.jdbc.url> 
+		jdbc:mysql://192.168.88.228:3306/sonar?useUnicode=true&amp;characterEncoding=utf8 
+		</sonar.jdbc.url> <sonar.jdbc.username>sonar</sonar.jdbc.username> <sonar.jdbc.password>sonar</sonar.jdbc.password> 
+		Optional URL to server. Default value is http://localhost:9000 <sonar.host.url> 
+		http://192.168.88.228:9000/ </sonar.host.url> </properties> -->
 
 </project>

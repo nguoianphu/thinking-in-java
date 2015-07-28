@@ -28,7 +28,8 @@ public class App {
 	 * @throws exceptions
 	 *             No exceptions thrown
 	 */
-	public static void main(String[] args) {
+	public void chapObject() {
+		//public static void main(String[] args) {
 		System.out.println("Hello World!");
 		System.out.println("#############");
 
@@ -102,8 +103,8 @@ public class App {
 		System.out.println("Ex10");
 		System.out
 				.println("Type arguments | java -jar thinking-java-1.0-SNAPSHOT.jar hello my love");
-		for (int i = 0; i < args.length; i++)
-			System.out.println(args[i]);
+		// /*for (int i = 0; i < args.length; i++)
+		// System.out.println(args[i]);*/
 		System.out.println("#############");
 
 		System.out.println("Ex11");
