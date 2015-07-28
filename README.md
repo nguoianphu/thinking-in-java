@@ -1,6 +1,8 @@
 # thinking-in-java
 Thinking in Java - build with Maven
 
+[![Circle CI](https://circleci.com/gh/nguoianphu/thinking-in-java.svg?style=svg)](https://circleci.com/gh/nguoianphu/thinking-in-java)
+
 ### Codeship CI
 [ ![Codeship Status for nguoianphu/thinking-in-java](https://codeship.com/projects/7f4d9390-10c7-0133-d63c-72eed9846b85/status?branch=master)](https://codeship.com/projects/92081)
 
