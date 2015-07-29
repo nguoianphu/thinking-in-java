@@ -1,8 +1,12 @@
 package com.think.java;
 
 import com.think.java.operators.Assignment;
+import com.think.java.operators.Bitwise;
+import com.think.java.operators.CoinFlipping;
 import com.think.java.operators.Dogs;
+import com.think.java.operators.Exponents;
 import com.think.java.operators.FloatClass;
+import com.think.java.operators.Literals;
 import com.think.java.operators.Print;
 import com.think.java.operators.Velocity;
 
@@ -41,7 +45,7 @@ public class Operators {
 		vl.velocity();
 		System.out.println("#############################");
 
-		System.out.println("Ex4");
+		System.out.println("Ex5");
 		Dogs spot = new Dogs();
 		spot.name = "Spot";
 		spot.says = "Rurf!";
@@ -52,6 +56,49 @@ public class Operators {
 		System.out.println(scruffy.name + " " + scruffy.says);
 		System.out.println("#############################");
 
+		System.out.println("Ex6");
+		Dogs rex = new Dogs();
+		// rex = spot;
+		rex.name = spot.name;
+		rex.says = spot.says;
+		System.out.println(rex == spot);
+		System.out.println(rex.equals(spot));
+		System.out.println(rex.name == spot.name);
+		System.out.println(rex.says.equals(spot.says));
+		System.out.println(rex.says == spot.says);
+		System.out.println("#############################");
+
+		System.out.println("Ex7");
+		CoinFlipping cf = new CoinFlipping();
+		cf.throwing();
+		System.out.println("#############################");
+
+		System.out.println("Ex8");
+		Literals lt = new Literals();
+		lt.longRun();
+		System.out.println("#############################");
+
+		System.out.println("Ex9");
+		Exponents ex = new Exponents();
+		ex.minMax();
+		System.out.println("#############################");
+
+		System.out.println("Ex10");
+		Bitwise bw = new Bitwise();
+		bw.run();
+		System.out.println("#############################");
+
+		System.out.println("Ex11");
+		System.out.println("#############################");
+
+		System.out.println("Ex12");
+		System.out.println("#############################");
+
+		System.out.println("Ex13");
+		System.out.println("#############################");
+
+		System.out.println("Ex14");
+		System.out.println("#############################");
 	}
 
 }
