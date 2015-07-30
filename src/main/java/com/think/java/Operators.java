@@ -1,13 +1,17 @@
 package com.think.java;
 
+import com.sun.org.apache.xml.internal.utils.StringComparable;
 import com.think.java.operators.Assignment;
 import com.think.java.operators.Bitwise;
+import com.think.java.operators.CharExample;
 import com.think.java.operators.CoinFlipping;
 import com.think.java.operators.Dogs;
 import com.think.java.operators.Exponents;
 import com.think.java.operators.FloatClass;
 import com.think.java.operators.Literals;
 import com.think.java.operators.Print;
+import com.think.java.operators.ShilfOperators;
+import com.think.java.operators.StringCompare;
 import com.think.java.operators.Velocity;
 
 /*
@@ -88,16 +92,28 @@ public class Operators {
 		bw.run();
 		System.out.println("#############################");
 
-		System.out.println("Ex11");
-		System.out.println("#############################");
-
-		System.out.println("Ex12");
+		System.out.println("Ex11 + Ex12");
+		ShilfOperators so = new ShilfOperators();
+		int i = 15;
+		System.out.println("i = " + i);
+		so.leftShilf(i);
+		so.rightShilf(i);
 		System.out.println("#############################");
 
 		System.out.println("Ex13");
+		CharExample ce = new CharExample();
+		char a = 'a';
+		ce.printBinary(a);
+		char x = 'x';
+		ce.printBinary(x);
+		char y = 'y';
+		ce.printBinary(y);
 		System.out.println("#############################");
 
 		System.out.println("Ex14");
+		StringCompare sc = new StringCompare();
+		sc.compare("think", "think");
+		sc.compare("java", "JAVA");
 		System.out.println("#############################");
 	}
 
