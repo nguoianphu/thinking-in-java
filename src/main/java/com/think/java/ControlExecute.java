@@ -2,11 +2,13 @@ package com.think.java;
 
 import com.think.java.control.Bitwise2Terany;
 import com.think.java.control.BreakAndContinue;
+import com.think.java.control.Fibonacci;
 import com.think.java.control.GenerateRandom;
 import com.think.java.control.IfElse2;
 import com.think.java.control.PrimeCheck;
 import com.think.java.control.PrintValue;
 import com.think.java.control.SwitchFor;
+import com.think.java.control.VampireNum;
 
 public class ControlExecute {
 
@@ -67,21 +69,32 @@ public class ControlExecute {
 		System.out.println("#####################");
 
 		System.out.println("Ex9");
+		int number = 20;
+		Fibonacci fb = new Fibonacci();
+		System.out.println("Fibonacci series upto " + number + " numbers : ");
+
+		System.out.println("Fibonacci number using recursion");
+		for (int i = 1; i <= number; i++) {
+			System.out.print(fb.fibonacciRecusion(i) + " ");
+		}
+		System.out.println("");
+		System.out.println("Fibonacci number using Loop");
+		for (int i = 1; i <= number; i++) {
+			System.out.print(fb.fibonacciLoop(i) + " ");
+		}
+		System.out.println("");
 		System.out.println("#####################");
 
 		System.out.println("Ex10");
+		VampireNum vn = new VampireNum();
+		for (int number1 = 1000; number1 < 10000; number1++){
+            int[] arr = new int[2];
+            if(vn.isVampire(number1, arr))
+            {
+                System.out.println(number1 + " = " + arr[0] + " * " + arr[1]);
+            }
+        }
 		System.out.println("#####################");
 
-		System.out.println("Ex11");
-		System.out.println("#####################");
-
-		System.out.println("Ex12");
-		System.out.println("#####################");
-
-		System.out.println("Ex13");
-		System.out.println("#####################");
-
-		System.out.println("Ex14");
-		System.out.println("#####################");
 	}
 }
