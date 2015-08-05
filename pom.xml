@@ -47,7 +47,7 @@
 						</goals>
 						<configuration>
 							<!-- <mainClass>com.think.java.App</mainClass> -->
-							<mainClass>com.think.java.Operators</mainClass>
+							<mainClass>com.think.java.ControlExecute</mainClass>
 							<!-- <arguments> <argument>arg0</argument> <argument>arg1</argument> 
 								</arguments> -->
 						</configuration>
