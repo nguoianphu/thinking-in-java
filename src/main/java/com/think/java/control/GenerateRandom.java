@@ -18,8 +18,15 @@ public class GenerateRandom {
 		int num1 = rd.nextInt(totalNumbers);
 		for (int i = 0; i < totalNumbers; i++) {
 			int num2 = rd.nextInt(totalNumbers);
-			
+
 			System.out.print(num1 + " vs " + num2 + " | ");
+		}
+	}
+
+	public void genRandomWhile(int totalNumbers) {
+
+		while (true) {
+			genRandom(totalNumbers);
 		}
 	}
 

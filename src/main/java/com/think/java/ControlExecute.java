@@ -1,8 +1,10 @@
 package com.think.java;
 
+import com.think.java.control.Bitwise2Terany;
 import com.think.java.control.BreakAndContinue;
 import com.think.java.control.GenerateRandom;
 import com.think.java.control.IfElse2;
+import com.think.java.control.PrimeCheck;
 import com.think.java.control.PrintValue;
 import com.think.java.control.SwitchFor;
 
@@ -21,12 +23,22 @@ public class ControlExecute {
 		System.out.println("#####################");
 
 		System.out.println("Ex3");
+		// gr.genRandomWhile(3);
 		System.out.println("#####################");
 
 		System.out.println("Ex4");
+		PrimeCheck pc = new PrimeCheck();
+
+		for (int i = 0; i <= 20; i++) {
+			pc.primeCheck(i);
+		}
 		System.out.println("#####################");
 
 		System.out.println("Ex5");
+		Bitwise2Terany bt = new Bitwise2Terany();
+		bt.bitwise(10);
+		bt.terany(10);
+		bt.terany(0);
 		System.out.println("#####################");
 
 		System.out.println("Ex6");
@@ -72,5 +84,4 @@ public class ControlExecute {
 		System.out.println("Ex14");
 		System.out.println("#####################");
 	}
-
 }
